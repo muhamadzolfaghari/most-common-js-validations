@@ -9,7 +9,7 @@ All patterns are only work for Iran country.
 A utility to validate an Iranian person national id.
 
 ```js
-isValidPersonNationalId('STRING_VALUE');
+isValidPersonNationalId('STRING');
 ```
 
 ## Company National ID
@@ -17,7 +17,7 @@ isValidPersonNationalId('STRING_VALUE');
 A utility to validate an iranian company national id
 
 ```js
-isValidCompanyNationalId('STRING_VALUE');
+isValidCompanyNationalId('123456789');
 ```
 
 ## Phone Number
@@ -26,7 +26,7 @@ A utility to validate the iranian phone number, an Iranian phone number, which i
 secondly, is 9, and the length of the rest should be nine characters.
 
 ```js
-isValidPhoneNumber("STRING_VALUE");
+isValidPhoneNumber("09123456789");
 ```
 
 ## Telephone Number
@@ -35,9 +35,22 @@ A utility to validate the iranian telephone number, an iranian telephone number,
 and the length of the rest should be nine characters.
 
 ```js
-isValidTelephoneNumber("STRING_VALUE");
+isValidTelephoneNumber("021241221");
 ```
+
 ## Latitude
+
+A utility to validate the latitude in Iran boundary, a pattern which is determined the latitude of a point which existed
+in Iran boundary.
+
+```js
+isValidLatitude(35.7575);
+```
 
 ## Longitude
 
+A utility to validate the longitude in Iran boundary, a pattern which is determined the longitude of a point which
+existed in Iran boundary.
+```js
+isValidLatitude(51.41);
+```
