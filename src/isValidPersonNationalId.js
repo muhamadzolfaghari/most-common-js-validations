@@ -1,5 +1,5 @@
 /**
- * A utility to validate the iranian person national id
+ * A utility to validate an Iranian person national id
  * @param value {string}
  * @returns {boolean}
  */

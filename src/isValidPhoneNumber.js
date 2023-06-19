@@ -1,5 +1,5 @@
 /**
- * The iranian phone number, which is started firstly from zero or none-zero secondly,
+ * An Iranian phone number, which is started firstly from zero or none-zero secondly,
  * is 9, and the length of the rest should be nine characters.
  * @type {RegExp}
  */

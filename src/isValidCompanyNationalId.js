@@ -1,5 +1,5 @@
 /**
- * A utility to validate the iranian company national id
+ * A utility to validate an iranian company national id
  * @param value {string}
  * @returns {boolean}
  */
