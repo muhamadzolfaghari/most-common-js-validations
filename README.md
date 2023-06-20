@@ -31,7 +31,7 @@ isValidPhoneNumber("09123456789");
 
 ## Telephone Number
 
-A utility to validate the iranian telephone number, an iranian telephone number, which is started from zero or none-zero
+A utility to validate the Iranian telephone number, an Iranian telephone number, which is started from zero or none-zero
 and the length of the rest should be nine characters.
 
 ```js
@@ -40,7 +40,7 @@ isValidTelephoneNumber("021241221");
 
 ## Latitude
 
-A utility to validate the latitude in Iran boundary, a pattern which is determined the latitude of a point which existed
+A utility to validate the latitude in the Iran boundary, a pattern which is determined the latitude of a point which existed
 in Iran boundary.
 
 ```js
@@ -49,8 +49,8 @@ isValidLatitude(35.7575);
 
 ## Longitude
 
-A utility to validate the longitude in Iran boundary, a pattern which is determined the longitude of a point which
-existed in Iran boundary.
+A utility to validate the longitude in the Iran boundary, a pattern which is determined the longitude of a point which
+existed in the Iran boundary.
 ```js
-isValidLatitude(51.41);
+isValidLongitude(51.41);
 ```
